@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	port := 8080
+	port := 8088
 	addr := fmt.Sprintf(":%d", port)
 	r := routers.InitRouter()
 	server := &http.Server{
